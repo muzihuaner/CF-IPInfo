@@ -162,9 +162,9 @@ async function handleRequest(request) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${t.title}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.loli.net/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
   <style>
     :root {
       --primary-color: #4a90e2;
@@ -372,7 +372,7 @@ async function handleRequest(request) {
     </div>
   </div>
   <footer>
-    <a href="https://github.com/KKKKKCAT/CF-IPInfo/" target="_blank" rel="noopener noreferrer">${t.sourceCode}</a>
+    <a href="#" target="_blank" rel="noopener noreferrer">${t.sourceCode}</a>
     <span style="margin-left: 10px; color: var(--primary-color);">emoji ver:1.0.0</span>
   </footer>
   <script>
@@ -413,7 +413,7 @@ async function handleRequest(request) {
           map.invalidateSize();
       }
       </script>
-      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 </body>
 </html>
 `;
